@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/title_screen"
+    >
+
+   <ImageButton
+       android:id="@+id/button"
+       android:layout_width="@dimen/start_button"
+       android:layout_height="@dimen/start_button"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="92dp"
+       android:background="@null"
+       android:onClick="clickToCharacter"
+       android:scaleType="centerCrop"
+       android:src="@drawable/action_button" />
+
+   <TextView
+       android:id="@+id/textView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/button"
+       android:layout_centerHorizontal="true"
+       android:fontFamily="sans-serif-condensed"
+       android:text="@string/Press_start"
+       android:textColor="@android:color/white"
+       android:textSize="40sp" />
+
+   <!--<Button-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:layout_alignParentBottom="true"-->
+       <!--android:text="@string/Credits"-->
+       <!--android:background="@android:color/white"-->
+       <!--android:textColor="@android:color/black"-->
+       <!--android:onClick="clickToCredits"/>-->
+</RelativeLayout>

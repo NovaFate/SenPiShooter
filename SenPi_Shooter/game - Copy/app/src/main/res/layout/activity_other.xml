@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fightscenebackground_resized"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/Choose_character"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="16dp"
+        >
+
+        <ImageButton
+            android:id="@+id/girl"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/character_height"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="onClick1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/front" />
+
+        <ImageButton
+            android:id="@+id/boy"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/character_height"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="onClick2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mfront" />
+    </LinearLayout>
+</RelativeLayout>

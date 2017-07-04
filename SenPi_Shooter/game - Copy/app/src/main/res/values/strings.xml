@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Senπ Shooter</string>\
+    <string name="Start_text">Start</string>
+    <string name="Press_start">Press π to begin</string>
+    <string name="Choose_character">Select a character</string>
+    <string name="Credits">Credits</string>
+    <string name="Kelly">Kelly Ho</string>
+    <string name="David">David Liu</string>
+    <string name="Vy">Vy Dao</string>
+    <string name="Game_over">Game Over</string>
+</resources>
